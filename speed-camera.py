@@ -6,11 +6,15 @@
 '''
 limite_velocidade = 80
 
-velocidade = int(input('qual a velocidade ?'))
-
+velocidade = int(input('qual a velocidade ? '))
+print('_'*55)
 if velocidade > limite_velocidade:
     print('MULTADO! Você excedeu o limite permitido que é de {}km'.format(limite_velocidade))
-    print('Você deve pagar uma multa de R${}'.format((velocidade - limite_velocidade)*7 ))
-    print('Tenha um bom dia! Dirija com Segurança!')
+    multa = (velocidade - limite_velocidade)*7
+    print('Você deve pagar uma multa de R${:.2f}'.format(multa))
+
 else:
-    print('DENTRO DO LIMITE! Tenha um bom dia! Dirija com Segurança!')
+    print('DENTRO DO LIMITE!')
+
+print('_'*55)
+print('Tenha um bom dia! Dirija com Segurança!')
