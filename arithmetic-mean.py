@@ -4,4 +4,7 @@ Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a su
 
 n = int(input('digite a primeira nota'))
 n2= int(input('digite a segunda nota:'))
-print('a media entre {} e {} é {}'.format(n,n2, ((n+n2)/2)))
+media = (n+n2)/2
+print('a media entre {} e {} é {}'.format(n,n2,media ))
+
+print('Parabéns' if media >= 6 else 'Estude Mais')
