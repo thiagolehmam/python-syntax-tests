@@ -6,13 +6,19 @@ venceu ou perdeu.
 '''
 
 from random import randint
+from time import sleep
 
 computador = randint(0,5)
 
-jogador = int(input('Qual o número você escolhe entre 1 e 5 ? '))
+print('-='*25)
+print('Pensei em um número entre 0 e 5. tente advinhar...  ')
+print('-='*25)
+jogador = int(input('Em qual número eu pensei ???'))
+print('processando...')
+sleep(2)
 
 if computador == jogador:
-    print('você ganhou')
+    print('PARABEÉNS! Você Ganhou!')
 else:
-    print('você perdeu!')
-    print('pensei no numero {}'.format(computador))
+    print('Você Perdeu!')
+    print('Eu pensei no numero {}'.format(computador))
