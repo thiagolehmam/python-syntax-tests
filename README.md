@@ -1,4 +1,3 @@
-```markdown
 # Python Practice Project
 
 Este projeto foi criado como parte de uma jornada para me familiarizar com a sintaxe e semântica da linguagem de programação Python. Aqui, você encontrará uma coleção de algoritmos simples que abordam vários conceitos e desafios para aprimorar minhas habilidades no Python.
@@ -53,4 +52,6 @@ O projeto está organizado de forma modular, com cada script abordando um tópic
 
 ## Contribuições
 
-Este é um projeto em constante evolução, e qualquer
+Este é um projeto em constante evolução, e qualquer contribuição é bem-vinda! Se você tiver sugestões, correções ou desejar adicionar novos desafios, sinta-se à vontade para criar um fork e propor alterações.
+
+Espero que este projeto sirva como uma jornada de aprendizado.
